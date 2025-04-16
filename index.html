@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cool Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header id="navbar">
+    <nav>
+        <div class="nav-container">
+          <div class="logo">MySite</div>
+          
+          <div class="hamburger" id="hamburger">
+            ☰
+          </div>
+      
+          <ul id="nav-links" class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>      
+  </header>
+  <div id="loading-overlay">
+    <div class="spinner"></div>
+  </div>
+  
+  <main>
+    <section class="hero" id="home">
+        <div class="hero-content">
+          <h1 style="font-size: 54px;">Welcome Aboard ! 🚀</h1>
+          <p style="font-size: 30px;">Your journey starts here. Discover something amazing and let’s make it happen.</p>
+          <a href="#about" class="btn">Start Exploring</a>
+        </div>
+      </section>
+      
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>Hey this is your digital travel buddy! This tourism website makes trip planning easy and exciting, with destination guides, local tips, and travel inspiration at your fingertips.</p>
+      </section>
+      
+      <section class="services" id="services">
+        <h2>Services</h2>
+        
+        <div class="columns">
+            <div class="column"><ul><li>Destination Guides</li>
+
+               <li> Trip Planning Tools</li>
+            <li>Recommendations</li></ul></div>
+            <div class="column">
+                <ul><li>Accommodation Finder</li>
+                <li> Activities & Tours Bookings</li>
+             <li>Travel Deals & Discounts</li></ul></div>
+            <div class="column"><ul>
+                <li>Weather & Travel Alerts
+
+                </li>
+
+                <li> Interactive Maps</li>
+             <li>Customer Support</li></ul></div>
+          </div>
+
+      </section>
+      
+      <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+          <p id="form-status"></p>
+        </form>
+      </section>
+      
+  </main>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <footer>
+    <p style="text-align:center;">&copy; 2025 MySite. All rights reserved</p>
+  </footer>
+
+</body>
+</html>
